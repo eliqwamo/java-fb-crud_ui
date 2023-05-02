@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:padding="40sp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/productName"
+            android:background="@color/white"
+            android:hint="Product name"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+        <EditText
+            android:id="@+id/productPrice"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product price"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+        <EditText
+            android:id="@+id/productDescription"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Product description"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+        <Button
+            android:layout_marginTop="4sp"
+            android:id="@+id/add_product_btn"
+            android:text="save product"
+            android:backgroundTint="@color/teal_200"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+
+
+
+        <Button
+            android:layout_marginTop="20sp"
+            android:id="@+id/get_all_products_btn"
+            android:text="get all products"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+        <Button
+            android:layout_marginTop="4sp"
+            android:id="@+id/get_product_by_id_btn"
+            android:text="get product by id"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+        <Button
+            android:layout_marginTop="4sp"
+            android:id="@+id/get_product_by_para_btn"
+            android:text="Get product by parameter"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+        <Button
+            android:layout_marginTop="4sp"
+            android:id="@+id/edit_product_btn"
+            android:text="edit product"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+        <Button
+            android:layout_marginTop="4sp"
+            android:id="@+id/delete_product_btn"
+            android:text="delete product"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
